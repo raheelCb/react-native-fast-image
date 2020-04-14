@@ -80,6 +80,7 @@ export interface ImageStyle extends FlexStyle, TransformsStyle, ShadowStyleIOS {
 
 export interface FastImageProps {
     source: Source | number
+    placeholder?: React.ReactNode
     resizeMode?: ResizeMode
     fallback?: boolean
 
